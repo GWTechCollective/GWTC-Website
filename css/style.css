@@ -2,7 +2,7 @@
  * GW Tech Collective Stylesheet 
  * Brandon Bernier
  * Mark Tentindo
- * Updated: 2016-01-12
+ * Updated: 2016-01-16
  *********************************/
  
  /* Color Palette
@@ -115,7 +115,7 @@ footer a:hover,
 
 /******************** Body ********************/
 .header-img {
-	background-color: black;
+	background-color: #4C9E15;
 	border-bottom: solid 7px #4C9E15;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
@@ -131,11 +131,6 @@ footer a:hover,
 
 #sidebar hr {
 	margin: 20px 0;
-}
-
-#sidebar hr:first-of-type {
-	display: none;
-	margin: 40px 0;
 }
 
 #tweets iframe {
@@ -193,7 +188,14 @@ footer a:hover,
 	}
 }
 
+/******************** Executive Board ********************/
+.board h4 {
+	margin: 0 0 5px 0;
+}
 
+.board p {
+	margin: 5px 0 0 0;
+}
 
 /*****************************************************************************/
 /****************************** OrgSync Modules ******************************/
