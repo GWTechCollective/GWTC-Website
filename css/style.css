@@ -164,7 +164,15 @@ footer a:hover,
 }
 
 .board p {
-	margin: 5px 0 0 0;
+	margin: 2px 0 0 0;
+}
+
+.board .panel-body {
+	padding: 8px;
+}
+
+.board .panel-footer {
+	padding: 8px;
 }
 
 /******************** Smaller Media Adjustments ********************/
