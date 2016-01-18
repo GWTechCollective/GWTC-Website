@@ -167,12 +167,33 @@ footer a:hover,
 	margin: 2px 0 0 0;
 }
 
-.board .panel-body {
+.board .panel-default {
+	border-color: #CCC;
+}
+
+.board .panel-body, 
+.board .panel-footer {
 	padding: 8px;
 }
 
-.board .panel-footer {
-	padding: 8px;
+.board .panel-body img {
+	border-radius: 4px 4px 0 0;
+}
+
+/******************** Projects ********************/
+#project_nav {
+	border: 1px solid #CCC;
+}
+
+#project_nav ul {
+	font-weight: bold;
+	list-style-type: none;
+	margin: 10px 0;
+	padding: 0;
+}
+
+#project_body h2:first-of-type {
+	margin-top: 0;
 }
 
 /******************** Smaller Media Adjustments ********************/
@@ -314,6 +335,7 @@ footer a:hover,
 #module_links_list * {
 	border: 0;
 	list-style-position: inside;
+	margin: 0;
 	padding: 0;
 	text-decoration: none;
 }
