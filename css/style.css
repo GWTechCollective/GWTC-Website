@@ -297,6 +297,7 @@ footer a:hover,
 
 .mini_calendar {
 	background-color: white;
+	height: 200px;
 }
 
 .mini_calendar .empty {
